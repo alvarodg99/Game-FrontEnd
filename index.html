@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master Front Game</title>
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/Style.css">
 </head>
+
 <body>
-    
+    <header>
+        <img src="Img/Logo.png" alt="Logo" class="logo">
+    </header>
+    <main>
+        <form action="#">
+            <div>
+                <label for="nick"> Enter your nick </label>
+                <input type="text" name="nick" id="nick" value="@" readonly>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="mail"> Enter your mail </label>
+                <input type="email" name="email" id="email" value="yo@im.com">
+            </div>
+            <div>
+                <label for="nick"> Size for the game</label>
+                <select name="size" id="size">
+                    <option value=""> Please select a size</option>
+                    <option value="1"> 4 x 4</option>
+                    <option value="2"> 5 x 5</option>
+                    <option value="3"> 6 x 6</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="PLAY"> 
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p> GAME$ </p>
+    </footer>
 </body>
+
 </html>
