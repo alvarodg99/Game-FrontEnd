@@ -54,7 +54,7 @@ select{
     font-size: 18px;
 }
 
-#nick{
+#arroba{
     float: left;
     font-family:"Poppins" ,sans-serif;
     text-align: center;
@@ -69,6 +69,15 @@ select{
 
 #email{
     width: 278px;
+}
+
+#mistake{
+    text-align: center;
+    color: #fd0c49;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 

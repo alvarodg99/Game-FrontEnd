@@ -14,11 +14,14 @@
         <img src="Img/Logo.png" alt="Logo" class="logo">
     </header>
     <main>
-        <form action="#">
+        <div>
+            <p id="mistake"></p>
+        </div>
+        <form action="#" id="form">
             <div>
                 <label for="nick"> Enter your nick </label>
-                <input type="text" name="nick" id="nick" value="@" readonly>
-                <input type="text" name="name" id="name">
+                <input type="text" name="arroba" id="arroba" value="@" readonly>
+                <input type="text" name="nick" id="nick">
             </div>
             <div>
                 <label for="mail"> Enter your mail </label>
@@ -27,20 +30,21 @@
             <div>
                 <label for="nick"> Size for the game</label>
                 <select name="size" id="size">
-                    <option value=""> Please select a size</option>
+                    <option value="0"> Please select a size</option>
                     <option value="1"> 4 x 4</option>
                     <option value="2"> 5 x 5</option>
                     <option value="3"> 6 x 6</option>
                 </select>
             </div>
             <div>
-                <input type="submit" value="PLAY"> 
+                <input type="submit" value="PLAY" id="PlayButton"> 
             </div>
         </form>
     </main>
     <footer>
         <p> GAME$ </p>
     </footer>
+    <script src="Scripts/script.js"></script>
 </body>
 
 </html>
